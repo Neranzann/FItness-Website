@@ -8,11 +8,11 @@ export default function Goals() {
         <div className="grid gap-12 md:grid-cols-2">
           <div className="relative">
             <Image
-              src="/placeholder.svg?height=600&width=500"
-              alt="Professional Trainer"
+              src="https://images.pexels.com/photos/6456211/pexels-photo-6456211.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+              alt="Professional Trainer in the gym"
               width={500}
               height={600}
-              className="rounded-2xl"
+              className="rounded-2xl object-cover"
             />
             <div className="absolute right-4 top-4 rounded-lg bg-white p-4 shadow-lg">
               <div className="flex items-center gap-2">
@@ -35,6 +35,9 @@ export default function Goals() {
             </Button>
           </div>
         </div>
+      </div>
+      <div className="mt-4 text-center text-xs text-zinc-500">
+        Photo by <a href="https://www.pexels.com/@tima-miroshnichenko/" className="underline">Tima Miroshnichenko</a> from <a href="https://www.pexels.com/photo/man-in-gray-shirt-holding-black-dumbbell-6456211/" className="underline">Pexels</a>
       </div>
     </section>
   )
