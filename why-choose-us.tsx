@@ -42,8 +42,8 @@ export default function WhyChooseUs() {
           <div className="relative">
             <div className="relative aspect-square overflow-hidden rounded-full bg-red-500/20">
               <Image
-                src="/placeholder.svg?height=600&width=600"
-                alt="Fitness Trainer"
+                src="https://images.unsplash.com/photo-1461896836934-ffe607ba8211?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80"
+                alt="Athlete checking watch while running"
                 width={600}
                 height={600}
                 className="object-cover"
@@ -69,6 +69,9 @@ export default function WhyChooseUs() {
             </div>
           </div>
         </div>
+      </div>
+      <div className="mt-4 text-center text-xs text-zinc-500">
+        Photo by <a href="https://unsplash.com/@sporlab?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" className="underline">sporlab</a> on <a href="https://unsplash.com/photos/XiZ7pRvCzro?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" className="underline">Unsplash</a>
       </div>
     </section>
   )
