@@ -39,13 +39,13 @@ export default function Hero() {
           </div>
           <div className="relative">
             <Image
-              src="/placeholder.svg?height=600&width=600"
-              alt="Fitness Trainers"
-              width={600}
-              height={600}
-              className="rounded-2xl"
-              priority
-            />
+  src="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80"
+  alt="Athlete checking sports watch"
+  width={600}
+  height={600}
+  className="rounded-2xl object-cover"
+  priority
+/>
             <div className="absolute bottom-4 right-4 rounded-lg bg-white p-4 shadow-lg">
               <div className="flex items-center gap-2">
                 <div className="h-12 w-12 rounded-md bg-red-500" />
@@ -66,6 +66,9 @@ export default function Hero() {
             </div>
           </div>
         </div>
+      </div>
+      <div className="mt-4 text-xs text-zinc-500">
+        Photo by <a href="https://unsplash.com/@gentritbsylejmani?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" className="underline">Gentrit Sylejmani</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" className="underline">Unsplash</a>
       </div>
     </section>
   )
