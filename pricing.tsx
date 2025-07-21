@@ -22,7 +22,7 @@ const plans = [
       "Online class access",
       "E-book fitness guide",
       "7 Extra fitness training",
-      "Buildiong materials"
+      
     ],
     popular: true,
   },
